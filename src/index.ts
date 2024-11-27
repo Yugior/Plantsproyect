@@ -31,7 +31,7 @@ app.use(cors());
 app.use(express.json());
 
 // Rutas de la api
-app.use("/plant", plantRouter);
+app.use("/api/v1/plant", plantRouter);
 
 // Rutas de prueba
 app.use("/error", testRoutes);
